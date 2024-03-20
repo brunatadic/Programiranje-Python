@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+    font-family: "Roboto", sans-serif;;
+    font-size: 20px;
+}
+
+
+.proizvodi-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proizvod{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+.proizvod img{
+    max-width: 100%;
+    height: auto;
+}
