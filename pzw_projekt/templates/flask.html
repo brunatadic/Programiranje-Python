@@ -1,0 +1,31 @@
+
+ 
+{% extends "base.html"%}
+
+{% block content%}
+<h1>flask okvir za razvoj web aplikacija u Pythonu</h1>
+    <br>
+    <p>
+        Flask je okvir web aplikacije napisan u Pythonu., to je Python modul koji vam omogućuje jednostavan razvoj web aplikacija. Ima malu jezgru koju 
+        je lako proširiti: to je mikrookvir koji ne uključuje ORM (Object Relational Manager) ili slične značajke.
+    </p>
+    <p> 
+        Klasificira se kao mikrookvir jer ne zahtijeva posebne alate.
+         Nema sloj apstrakcije baze podataka, provjeru valjanosti obrasca ili bilo koje druge komponente u kojima već postojeće 
+         biblioteke trećih strana pružaju zajedničke funkcije. 
+    </p>
+    <h3>osnovni Flask kod za aplikaciju (main.py)</h3>
+    <p>from flask import Flask, render_template
+
+        app = Flask(__name__)
+        
+        @app.route("/")
+        def index():
+            return render_template("index.html")</p>
+
+    
+    {% endblock content%}
+        
+      </body>
+    </body>
+    </html>
